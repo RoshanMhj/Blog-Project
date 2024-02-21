@@ -1,0 +1,93 @@
+.nav {
+  border-bottom: 2px solid;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.link,
+.link-second {
+  text-decoration: none;
+  color: black;
+}
+
+.link-brand {
+  display: flex;
+  align-items: center;
+}
+
+.main-tag {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #d83f31;
+}
+
+.header-input {
+  height: 3rem;
+  width: 250px;
+  padding: 1rem;
+  margin-left: 3rem;
+  border: 1px solid #d83f31;
+  border-radius: 0.3rem;
+}
+
+.search {
+  position: relative;
+  left: -20px;
+  top: 3px;
+}
+
+.link-second {
+  margin-left: 2rem;
+}
+
+.sign-in {
+  padding: 0.7rem;
+  width: 150px;
+  border: 2px solid #d83f31;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sign-in .link {
+  color: #d83f31;
+  font-weight: 700;
+}
+
+.link-items {
+  font-weight: 600;
+  position: relative;
+}
+
+.link-items:before,
+.link-items:after {
+  transition: all 0.5s;
+}
+
+.link-items:hover {
+  color: #fc6736;
+}
+
+.link-items:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #fc6736;
+  height: 2px;
+}
+
+.link-items:hover:after {
+  width: 100%;
+}
+
+.active {
+  color: #fc6736;
+}
