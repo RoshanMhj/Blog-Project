@@ -8,7 +8,7 @@ export const Header = () => {
     <div className="header">
       <nav className="nav">
         <Link to="/" className="link link-brand">
-          <span className="main-tag">VERVE</span>
+          <span className="main-tag">Whimsy</span>
         </Link>
         <div className="search">
           <input className="header-input" type="text" placeholder="Search..." />

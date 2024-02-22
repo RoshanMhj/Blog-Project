@@ -5,30 +5,32 @@ import { Link } from "react-router-dom";
 export const SignUp = () => {
   return (
     <div className="signup">
-      <div className="singup-brand">
-        <div className="brand">
-          <p>VERVE</p>
-        </div>
+      <div className="signup-brand">
+        <span className="brand">WELCOME!</span>
         <p>
-          Join our diverse blog community, where voices thrive. Whether a
-          seasoned writer or novice, share ideas, connect, and embark on
-          inspiration together.
+          Join our diverse blog community,where voices thrive. <br /> Whether a
+          seasoned writer or novice,
+          <br /> share ideas, connect, and embark on inspiration together.
         </p>
       </div>
       <div className="signup-info">
         <form>
-          <p>Your Username: </p>
+          <p>Username: </p>
           <input type="text" placeholder="Username" id="username" />
-          <p>Your Email:</p>
+          <p>Email:</p>
           <input type="email" placeholder="name@company.com" id="email" />
-          <p>Your Password</p>
+          <p>Password</p>
           <input type="password" placeholder="Your Password" id="password" />
 
-          <button type="submit">Sign Up</button>
+          <button type="submit" className="form-submit">
+            Sign Up
+          </button>
         </form>
+        <span className="signup-text">Already have an account?</span>
+        <Link className="signup-link" to="/sign-up">
+          Sign In
+        </Link>
       </div>
-      <span>Already have an account?</span>
-      <Link to="/sign-up">SignUp</Link>
     </div>
   );
 };

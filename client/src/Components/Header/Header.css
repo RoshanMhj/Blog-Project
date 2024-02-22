@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 .nav {
-  border-bottom: 2px solid;
+  border-bottom: 2px solid #65b741;
   padding: 1rem;
   align-items: center;
   display: flex;
@@ -20,9 +22,10 @@
 }
 
 .main-tag {
+  font-family: "Pacifico", cursive;
   font-weight: 700;
   font-size: 2rem;
-  color: #d83f31;
+  color: #65b741;
 }
 
 .header-input {
@@ -30,7 +33,7 @@
   width: 250px;
   padding: 1rem;
   margin-left: 3rem;
-  border: 1px solid #d83f31;
+  border: 1px solid #65b741;
   border-radius: 0.3rem;
 }
 
@@ -47,13 +50,13 @@
 .sign-in {
   padding: 0.7rem;
   width: 150px;
-  border: 2px solid #d83f31;
+  border: 2px solid #65b741;
   border-radius: 8px;
   cursor: pointer;
 }
 
 .sign-in .link {
-  color: #d83f31;
+  color: #65b741;
   font-weight: 700;
 }
 
@@ -68,7 +71,7 @@
 }
 
 .link-items:hover {
-  color: #fc6736;
+  color: #65b741;
 }
 
 .link-items:after {
@@ -80,7 +83,7 @@
   width: 0%;
   content: ".";
   color: transparent;
-  background: #fc6736;
+  background: #65b741;
   height: 2px;
 }
 
@@ -89,5 +92,5 @@
 }
 
 .active {
-  color: #fc6736;
+  color: #65b741;
 }
