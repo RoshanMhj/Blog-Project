@@ -23,7 +23,7 @@ export const Header = () => {
             <span className="link-items">About</span>
           </NavLink>
           <NavLink to="/projects" className="link-second">
-            <span className="link-items">Projects</span>
+            <span className="link-items">Popular</span>
           </NavLink>
         </div>
 
